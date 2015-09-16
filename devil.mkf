@@ -1,0 +1,33 @@
+defines
+{
+	IL_NO_EXR = 1			# https://github.com/openexr/openexr
+	IL_NO_JP2 = 1			# https://en.wikipedia.org/wiki/JasPer
+	IL_NO_MNG = 1			# https://cs.wikipedia.org/wiki/Multiple-image_Network_Graphics
+	IL_NO_LCMS = 1			# color profiles
+	IL_NO_TIF = 1			# http://www.libtiff.org/
+}
+
+includepaths
+{
+	include
+}
+
+subprojects
+{
+	libpng
+	libjpeg
+}
+
+files
+{
+	(src)
+	"*.cpp"
+	
+	(include)
+	"*.h"
+	
+	[IL]
+	(include/IL)
+	"*.h"
+	"*.hpp"
+}

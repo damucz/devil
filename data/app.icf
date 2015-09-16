@@ -1,0 +1,6 @@
+[Util]
+#MemoryBreakpoint=31
+
+[S3E]
+MemSize=100000000
+

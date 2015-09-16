@@ -1,0 +1,10 @@
+subprojects
+{
+	devil
+	iwgx
+}
+
+files
+{
+	deviltest.cpp
+}
