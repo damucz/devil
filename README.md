@@ -57,7 +57,7 @@ HD Photo - .wdp, .hdp|y|n
 X Pixel Map - .xpm|y|n
 Doom graphics|y|n
 
-*y* = supported, *o* = not supported, the library could be added, *n* = not supported
+**y** = supported, **o** = not supported, the library could be added, **n** = not supported
 
 Library Features
 ----------------
