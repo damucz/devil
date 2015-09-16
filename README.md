@@ -10,6 +10,8 @@ Few format have been disabled because of the dependencies. They could be added l
 Supported formats
 -----------------
 
+**y** = supported, **o** = not supported, the library could be added, **n** = not supported
+
 Format|Loading|Saving
 ------|-------|------
 Windows Bitmap - .bmp|y|y
@@ -56,8 +58,6 @@ Valve Texture Format - .vtf|y|y
 HD Photo - .wdp, .hdp|y|n
 X Pixel Map - .xpm|y|n
 Doom graphics|y|n
-
-**y** = supported, **o** = not supported, the library could be added, **n** = not supported
 
 Library Features
 ----------------
